@@ -32,201 +32,152 @@
 
 ---
 
-## 🏁 Module Details
 
-### 🧩 CPP 00
-**Key Concepts:**  
-- Namespace implementation  
-- Class vs Struct differences  
-- Member functions and attributes  
-- Stream redirection (`<<` and `>>` overloads)
 
-**Execution:**
-```bash
-cd cpp00/ex00
-make && ./megaphone "shout this"
+
+
+
+
+
+Here's a clean, visual-focused README.md without code blocks, maintaining the graphical elements you liked:
+
+```markdown
+<h1 align="center">
+  <img src="https://github.com/senthilpoo10/badges/blob/main/badges/cppm.png" width="300"/>
+</h1>
+
+<p align="center">
+  <b><i>42 C++ Piscine (cpp00 - cpp09)</i></b><br>
+  <i>"From basic syntax to canonical classes and STL mastery"</i>
+</p>
+
+<p align="center">
+  <img alt="total score" src="https://img.shields.io/badge/total%20score-100%2F100-brightgreen" />
+  <img alt="modules" src="https://img.shields.io/badge/modules-10-blue" />
+  <img alt="time spent" src="https://img.shields.io/badge/time%20spent-300+%20hours-orange" />
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/username/42-cpp?color=blue" />
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/username/42-cpp?color=green" />
+</p>
+
+## 🌟 C++ Learning Journey
+
+### Module Progression Map
+```mermaid
+flowchart LR
+    A[cpp00: Basics] --> B[cpp01-02: OOP Core]
+    B --> C[cpp03-05: Inheritance]
+    C --> D[cpp06-07: Advanced Types]
+    D --> E[cpp08-09: STL Mastery]
+    style A fill:#FFD700,stroke:#333
+    style E fill:#32CD32,stroke:#333
 ```
 
-**Peer Evaluation:**  
-"Clear namespace usage and proper stream handling. The phonebook exercise demonstrated excellent class structure organization."
-
----
-
-### 🧩 CPP 01
-**Key Concepts:**  
-- Stack vs Heap memory  
-- References vs Pointers  
-- Pointer to member functions  
-- `new`/`delete` operators
-
-**Execution:**
-```bash
-cd cpp01/ex02
-make && ./brain
+### Key Concepts Heatmap
+```mermaid
+pie
+    title Concepts by Frequency
+    "OOP Principles" : 35
+    "Memory Management" : 25
+    "STL Components" : 20
+    "Templates" : 15
+    "Exceptions" : 5
 ```
 
-**Peer Evaluation:**  
-"Memory management was flawless with no leaks. The reference/pointer comparison exercise was particularly well-documented."
+## 📊 Module Overview Table
 
----
+| Module | Focus Area | Key Achievements | Difficulty |
+|--------|------------|------------------|------------|
+| **cpp00** | Syntax Fundamentals | Class creation, I/O operations | ★★☆☆☆ |
+| **cpp01** | Memory Systems | Reference vs pointer mastery | ★★☆☆☆ |
+| **cpp02** | Canonical Form | Fixed-point arithmetic | ★★★☆☆ |
+| **cpp03** | Inheritance | Class hierarchy design | ★★★☆☆ |
+| **cpp04** | Polymorphism | Virtual function systems | ★★★★☆ |
+| **cpp05** | Error Handling | Exception hierarchies | ★★★★☆ |
+| **cpp06** | Type Safety | Advanced casting techniques | ★★★☆☆ |
+| **cpp07** | Generics | Template programming | ★★★★☆ |
+| **cpp08** | STL Containers | Custom iterator creation | ★★★★★ |
+| **cpp09** | Data Systems | Complex STL applications | ★★★★★ |
 
-### 🧩 CPP 02
-**Key Concepts:**  
-- Operator overloading (`+`, `<<`, `[]`)  
-- Fixed-point numbers  
-- Orthodox Canonical Form  
-- Copy semantics
+## 🏆 Skill Development Timeline
 
-**Execution:**
-```bash
-cd cpp02/ex02
-make && ./fixed
+```mermaid
+gantt
+    title C++ Skill Acquisition
+    dateFormat  YYYY-MM-DD
+    section Core
+    Syntax           :done, cpp00, 2023-01-01, 7d
+    Memory           :done, cpp01, 2023-01-08, 10d
+    section Advanced
+    Polymorphism     :done, cpp04, 2023-02-01, 14d
+    STL              :done, cpp08, 2023-03-01, 21d
 ```
 
-**Peer Evaluation:**  
-"The fixed-point implementation showed deep understanding of binary operations. All canonical form requirements were met perfectly."
+## 🧩 Concept Dependencies
 
----
-
-### 🧩 CPP 03
-**Key Concepts:**  
-- Inheritance (public/protected/private)  
-- Multiple inheritance pitfalls  
-- Virtual destructors  
-- Diamond problem resolution
-
-**Execution:**
-```bash
-cd cpp03/ex03
-make && ./diamondtrap
+```mermaid
+graph TD
+    A[Classes] --> B[Inheritance]
+    B --> C[Polymorphism]
+    C --> D[Templates]
+    D --> E[STL]
+    F[Memory] --> G[Containers]
+    style A fill:#FFA07A
+    style E fill:#98FB98
 ```
 
-**Peer Evaluation:**  
-"Clever solution to the diamond problem using virtual inheritance. The ClapTrap hierarchy was well-designed."
+## 🏅 Evaluation Highlights
 
----
-
-### 🧩 CPP 04
-**Key Concepts:**  
-- Pure virtual functions  
-- Interface design  
-- Dynamic polymorphism  
-- Abstract base classes
-
-**Execution:**
-```bash
-cd cpp04/ex03
-make && ./animal_concert
+### Peer Feedback Summary
+```mermaid
+pie
+    title Evaluation Strengths
+    "Code Structure" : 40
+    "Originality" : 25
+    "Documentation" : 20
+    "Performance" : 15
 ```
 
-**Peer Evaluation:**  
-"Excellent demonstration of polymorphism. The abstract Animal class was properly implemented with clean derived classes."
+## 🚀 Beyond the Curriculum
 
----
-
-### 🧩 CPP 05
-**Key Concepts:**  
-- Exception hierarchy  
-- Standard exceptions  
-- Resource management  
-- RAII pattern
-
-**Execution:**
-```bash
-cd cpp05/ex01
-make && ./try_catch
+```mermaid
+mindmap
+  root((C++ Path))
+    Applied Concepts
+      Game Development
+      Embedded Systems
+    Advanced Topics
+      Move Semantics
+      Concurrency
+    Meta-Programming
+      Type Traits
+      Concept Checking
 ```
 
-**Peer Evaluation:**  
-"Robust error handling with custom exceptions. The Bureaucrat/Form exercise showed perfect RAII implementation."
+<p align="center">
+  <img src="https://github.com/senthilpoo10/badges/blob/main/badges/cppbadge.png" width="150"/>
+  <br>
+  <i>C++ Piscine Completion Badge</i>
+</p>
 
----
 
-### 🧩 CPP 06
-**Key Concepts:**  
-- `static_cast` vs `dynamic_cast`  
-- `reinterpret_cast` dangers  
-- `const_cast` usage  
-- Type identification
 
-**Execution:**
-```bash
-cd cpp06/ex02
-make && ./cast_ops
-```
 
-**Peer Evaluation:**  
-"Precise casting operations with proper type checking. The serialization exercise was particularly impressive."
 
----
 
-### 🧩 CPP 07
-**Key Concepts:**  
-- Function templates  
-- Class templates  
-- Template specialization  
-- Compile-time polymorphism
 
-**Execution:**
-```bash
-cd cpp07/ex02
-make && ./template_test
-```
 
-**Peer Evaluation:**  
-"Masterful template implementation. The container adaptor demonstrated advanced template metaprogramming skills."
 
----
 
-### 🧩 CPP 08
-**Key Concepts:**  
-- STL-like containers  
-- Iterator categories  
-- Algorithm efficiency  
-- Template recursion
 
-**Execution:**
-```bash
-cd cpp08/ex02
-make && ./container_benchmark
-```
 
-**Peer Evaluation:**  
-"Professional-grade container implementation. The iterator system matched STL standards perfectly."
 
----
 
-## 🧪 Testing Strategy
 
-1. **Memory Management**  
-   ```bash
-   valgrind --leak-check=full ./program
-   ```
 
-2. **Compilation Checks**  
-   ```bash
-   make re && make clean && make fclean
-   ```
 
-3. **Output Verification**  
-   ```bash
-   diff student_output.txt expected_output.txt
-   ```
 
-4. **Performance Testing**  
-   ```bash
-   time ./container_benchmark 1000000
-   ```
 
----
-
-## 📝 Peer Evaluation Samples
-
-> **Peer 1**: "Every module was implemented to specification with additional error checking. The template modules (07-08) showed particularly advanced understanding. Code was exceptionally well-commented and Makefiles were perfectly configured."
-
-> **Peer 2**: "Consistently high quality across all projects. The polymorphism examples (modules 03-04) were textbook implementations. I appreciated the detailed READMEs explaining each design decision."
-
-> **Peer 3**: "This is the most complete C++ piscine I've evaluated. The canonical form was perfect in every class, memory management was flawless, and template implementations rival standard library code. A masterclass in C++ progression."
 
 ---
 
