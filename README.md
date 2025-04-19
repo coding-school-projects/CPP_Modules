@@ -97,44 +97,9 @@ The sequence carefully builds from basic OOP concepts to advanced template metap
 
 
 
-## 📊 Key Insights
-
-1. **Progressive Complexity**  
-   - Stars show gradual difficulty increase
-   - Memory concepts evolve from stack→heap→allocators
-
-2. **Paradigm Shifts**  
-   ```mermaid
-   pie
-       title Programming Paradigms
-       "OOP" : 45
-       "Generic" : 30
-       "Systems" : 25
-   ```
-
-3. **STL Mastery Path**  
-   - Starts with iostream (cpp00)
-   - Progresses to full container mastery (cpp08-09)
 
 
 
-
-
-
-
-
-## 🔍 Concept Evolution Map
-
-```mermaid
-flowchart LR
-    A[Basic Syntax] --> B[Memory Control]
-    B --> C[OOP Pillars]
-    C --> D[Generic Programming]
-    D --> E[Systems Design]
-    
-    style A fill:#FFECB3,stroke:#333
-    style E fill:#C8E6C9,stroke:#333
-```
 
 ## 🎯 Module Focus Highlights
 
@@ -146,10 +111,6 @@ flowchart LR
 ### Advanced Modules
 - **cpp08**: STL architecture
 - **cpp09**: Production-grade patterns
-
-<p align="center">
-  <img src="https://github.com/senthilpoo10/badges/blob/main/badges/cppconcepts.png" width="400"/>
-</p>
 
 ## 📊 Concept Weight Analysis
 
@@ -170,18 +131,4 @@ pie
 3. **Robustness Systems** (05-06) 
 4. **Generic Patterns** (07-08)
 5. **Architecture Design** (09)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
