@@ -16,47 +16,7 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/coding-school-projects/42-cpp?color=green" />
 </p>
 
-## 📚 Module Overview
-
-| Module | Concepts | Difficulty | Hours Spent |
-|--------|----------|------------|-------------|
-| [CPP 00](#-cpp-00) | Namespaces, classes, member functions, stdio streams | ★☆☆☆☆ | 20 |
-| [CPP 01](#-cpp-01) | Memory allocation, pointers to members, references | ★★☆☆☆ | 25 |
-| [CPP 02](#-cpp-02) | Ad-hoc polymorphism, operators overload, Orthodox Canonical Form | ★★★☆☆ | 30 |
-| [CPP 03](#-cpp-03) | Inheritance, multiple inheritance, diamond problem | ★★★☆☆ | 35 |
-| [CPP 04](#-cpp-04) | Subtype polymorphism, abstract classes, interfaces | ★★★★☆ | 40 |
-| [CPP 05](#-cpp-05) | Repetition and exceptions (try/catch) | ★★★☆☆ | 30 |
-| [CPP 06](#-cpp-06) | C++ casts (static/dynamic/reinterpret/const) | ★★★★☆ | 35 |
-| [CPP 07](#-cpp-07) | Templates (function/class) | ★★★★★ | 45 |
-| [CPP 08](#-cpp-08) | Templated containers, iterators, algorithms | ★★★★★ | 50 |
-
 ---
-
-
-
-
-
-
-
-
-
-<h1 align="center">
-  <img src="https://github.com/senthilpoo10/badges/blob/main/badges/cppm.png" width="300"/>
-</h1>
-
-<p align="center">
-  <b><i>42 C++ Piscine (cpp00 - cpp09)</i></b><br>
-  <i>"From basic syntax to canonical classes and STL mastery"</i>
-</p>
-
-<p align="center">
-  <img alt="total score" src="https://img.shields.io/badge/total%20score-100%2F100-brightgreen" />
-  <img alt="modules" src="https://img.shields.io/badge/modules-10-blue" />
-  <img alt="time spent" src="https://img.shields.io/badge/time%20spent-300+%20hours-orange" />
-<p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/username/42-cpp?color=blue" />
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/username/42-cpp?color=green" />
-</p>
 
 ## 🌟 C++ Learning Journey
 
@@ -96,20 +56,6 @@ pie
 | **cpp07** | Generics | Template programming | ★★★★☆ |
 | **cpp08** | STL Containers | Custom iterator creation | ★★★★★ |
 | **cpp09** | Data Systems | Complex STL applications | ★★★★★ |
-
-## 🏆 Skill Development Timeline
-
-```mermaid
-gantt
-    title C++ Skill Acquisition
-    dateFormat  YYYY-MM-DD
-    section Core
-    Syntax           :done, cpp00, 2023-01-01, 7d
-    Memory           :done, cpp01, 2023-01-08, 10d
-    section Advanced
-    Polymorphism     :done, cpp04, 2023-02-01, 14d
-    STL              :done, cpp08, 2023-03-01, 21d
-```
 
 ## 🧩 Concept Dependencies
 
@@ -157,25 +103,6 @@ mindmap
   <br>
   <i>C++ Piscine Completion Badge</i>
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 
