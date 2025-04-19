@@ -39,9 +39,7 @@
 
 
 
-Here's a clean, visual-focused README.md without code blocks, maintaining the graphical elements you liked:
 
-```markdown
 <h1 align="center">
   <img src="https://github.com/senthilpoo10/badges/blob/main/badges/cppm.png" width="300"/>
 </h1>
