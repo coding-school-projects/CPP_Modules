@@ -97,13 +97,6 @@ mindmap
       Type Traits
       Concept Checking
 ```
-
-<p align="center">
-  <img src="https://github.com/senthilpoo10/badges/blob/main/badges/cppbadge.png" width="150"/>
-  <br>
-  <i>C++ Piscine Completion Badge</i>
-</p>
-
 ---
 
 ## 🏆 Final Notes
