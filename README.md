@@ -31,17 +31,6 @@ flowchart LR
     style E fill:#32CD32,stroke:#333
 ```
 
-### Key Concepts Heatmap
-```mermaid
-pie
-    title Concepts by Frequency
-    "OOP Principles" : 35
-    "Memory Management" : 25
-    "STL Components" : 20
-    "Templates" : 15
-    "Exceptions" : 5
-```
-
 ## 📚 Comprehensive Module Guide
 
 | Module | Focus Area | Key Concepts | Key Achievements | Paradigm Focus | Memory Concepts | STL Components |
@@ -70,21 +59,6 @@ graph TD
     style E fill:#98FB98
 ```
 
-## 🚀 Beyond the Curriculum
-
-```mermaid
-mindmap
-  root((C++ Path))
-    Applied Concepts
-      Game Development
-      Embedded Systems
-    Advanced Topics
-      Move Semantics
-      Concurrency
-    Meta-Programming
-      Type Traits
-      Concept Checking
-```
 ---
 
 ## 🏆 Final Notes
