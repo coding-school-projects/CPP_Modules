@@ -42,20 +42,20 @@ pie
     "Exceptions" : 5
 ```
 
-## 📊 Module Overview Table
+## 📚 Comprehensive Module Guide
 
-| Module | Focus Area | Key Achievements | Difficulty |
-|--------|------------|------------------|------------|
-| **cpp00** | Syntax Fundamentals | Class creation, I/O operations | ★★☆☆☆ |
-| **cpp01** | Memory Systems | Reference vs pointer mastery | ★★☆☆☆ |
-| **cpp02** | Canonical Form | Fixed-point arithmetic | ★★★☆☆ |
-| **cpp03** | Inheritance | Class hierarchy design | ★★★☆☆ |
-| **cpp04** | Polymorphism | Virtual function systems | ★★★★☆ |
-| **cpp05** | Error Handling | Exception hierarchies | ★★★★☆ |
-| **cpp06** | Type Safety | Advanced casting techniques | ★★★☆☆ |
-| **cpp07** | Generics | Template programming | ★★★★☆ |
-| **cpp08** | STL Containers | Custom iterator creation | ★★★★★ |
-| **cpp09** | Data Systems | Complex STL applications | ★★★★★ |
+| Module | Focus Area | Key Concepts | Key Achievements | Paradigm Focus | Memory Concepts | STL Components |
+|--------|------------|--------------|------------------|----------------|-----------------|----------------|
+| **cpp00** | Syntax Fundamentals | `Classes`, `iostream`, `namespaces` | Class creation, I/O operations | Procedural → OOP | Stack allocation | `std::cin/cout` |
+| **cpp01** | Memory Systems | `References`, `pointers`, `RAII` | Reference vs pointer mastery | Memory management | Heap vs stack | `std::string` |
+| **cpp02** | Canonical Form | `Canonical form`, `operator overloading` | Fixed-point arithmetic | Object-oriented | Fixed-point memory | - |
+| **cpp03** | Inheritance | `Inheritance`, `diamond problem` | Class hierarchy design | OOP hierarchies | Constructor chaining | - |
+| **cpp04** | Polymorphism | `Virtual functions`, `abstract classes` | Virtual function systems | Polymorphism | vtable/runtime | - |
+| **cpp05** | Error Handling | `Exception handling`, `nested classes` | Exception hierarchies | Error management | Resource cleanup | - |
+| **cpp06** | Type Safety | `C++ casts`, `type identification` | Advanced casting techniques | Type systems | Dynamic casting | `typeid()` |
+| **cpp07** | Generics | `Templates`, `generic programming` | Template programming | Meta-programming | Template instantiation | `std::vector` |
+| **cpp08** | STL Containers | `Container adapters`, `iterators` | Custom iterator creation | Generic programming | Allocator patterns | Full STL |
+| **cpp09** | Data Systems | `STL algorithms`, `design patterns` | Complex STL applications | Systems programming | Cache efficiency | Advanced STL |
 
 ## 🧩 Concept Dependencies
 
@@ -119,20 +119,7 @@ The sequence carefully builds from basic OOP concepts to advanced template metap
 
 
 
-## 📚 Unified Module Breakdown
 
-| Module | Focus Area | Key Concepts | Key Achievements | Paradigm | Memory | STL | Difficulty |
-|--------|------------|--------------|------------------|----------|--------|-----|------------|
-| **cpp00** | Syntax Fundamentals | `Classes`, `iostream`, `namespaces` | Class creation, I/O operations | Procedural → OOP | Stack allocation | `std::cin/cout` | ★★☆☆☆ |
-| **cpp01** | Memory Systems | `References`, `pointers`, `RAII` | Reference vs pointer mastery | Memory management | Heap vs stack | `std::string` | ★★☆☆☆ |
-| **cpp02** | Canonical Form | `Canonical form`, `operator overloading` | Fixed-point arithmetic | Object-oriented | Fixed-point memory | - | ★★★☆☆ |
-| **cpp03** | Inheritance | `Inheritance`, `diamond problem` | Class hierarchy design | OOP hierarchies | Constructor chaining | - | ★★★☆☆ |
-| **cpp04** | Polymorphism | `Virtual functions`, `abstract classes` | Virtual function systems | Polymorphism | vtable/runtime | - | ★★★★☆ |
-| **cpp05** | Error Handling | `Exception handling`, `nested classes` | Exception hierarchies | Error management | Resource cleanup | - | ★★★★☆ |
-| **cpp06** | Type Safety | `C++ casts`, `type identification` | Advanced casting techniques | Type systems | Dynamic casting | `typeid()` | ★★★☆☆ |
-| **cpp07** | Generics | `Templates`, `generic programming` | Template programming | Meta-programming | Template instantiation | `std::vector` | ★★★★☆ |
-| **cpp08** | STL Containers | `Container adapters`, `iterators` | Custom iterator creation | Generic programming | Allocator patterns | Full STL | ★★★★★ |
-| **cpp09** | Data Systems | `STL algorithms`, `design patterns` | Complex STL applications | Systems programming | Cache efficiency | Advanced STL | ★★★★★ |
 
 ## 🔍 Visual Concept Flow
 
